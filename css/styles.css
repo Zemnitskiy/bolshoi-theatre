@@ -38,7 +38,7 @@
 }
 
 .main {
-  background: url("/img/first-screen-bg.png") no-repeat;
+  background: url("../img/first-screen-bg.png") no-repeat;
   background-size: cover;
   background-position: top center;
   min-height: 1045px;
@@ -170,7 +170,7 @@
   width: 350px;
   height: 490px;
   background-color: #d1a954;
-  background-image: url("/img/first-screen-poster.png");
+  background-image: url("../img/first-screen-poster.png");
   opacity: 0.85;
   z-index: -1;
 }
@@ -295,7 +295,7 @@
 }
 
 .best-theatre {
-  background: url("/img/best-theater-bg.png");
+  background: url("../img/best-theater-bg.png");
   background-size: cover;
   background-position: top center;
   height: 550px;
