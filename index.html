@@ -18,9 +18,16 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/styles.css" />
 
+    <!-- Owl Carousel Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
     <title>Большой театр</title>
   </head>
-  <section class="main">
+  <body>
+    <!-- <section class="main">
     <div class="container-fluid">
       <div class="fixed-sidebar d-none d-lg-block">
         <div class="sidebar-text">контактная информация</div>
@@ -353,9 +360,436 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
-  <body>
+    <section class="main">
+      <div class="container-fluid">
+        <div class="fixed-sidebar d-none d-lg-block">
+          <div class="sidebar-text">контактная информация</div>
+          <div class="sidebar-line mx-auto"></div>
+          <ul class="list-unstyled">
+            <li class="sidebar-social-item text-center">
+              <a href="#"
+                ><img
+                  src="img/soc-icon-instagram.png"
+                  width="26"
+                  height="26"
+                  alt=""
+              /></a>
+            </li>
+            <li class="sidebar-social-item text-center">
+              <a href="#"
+                ><img src="img/soc-icon-fb.png" width="15" height="26" alt=""
+              /></a>
+            </li>
+            <li class="sidebar-social-item text-center">
+              <a href="#"
+                ><img src="img/soc-icon-vk.png" width="26" height="14" alt=""
+              /></a>
+            </li>
+            <li class="sidebar-social-item text-center">
+              <a href="#"
+                ><img
+                  src="img/soc-icon-youtube.png"
+                  width="26"
+                  height="18"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="offset-lg-2">
+          <div class="container px-0">
+            <div class="row top-nav justify-content-between">
+              <div class="burger-wrapper">
+                <span class="burger-first-line"></span>
+                <span class="burger-second-line"></span>
+                <span class="burger-third-line"></span>
+              </div>
+              <div class="col-lg-9 col-md-12 offcanvas-menu">
+                <div class="close-menu">&times;</div>
+                <nav class="nav justify-content-between">
+                  <a class="nav-link nav-link-custom px-md-0 pl-0" href="#"
+                    >главная</a
+                  >
+                  <a class="nav-link nav-link-custom px-md-0" href="#"
+                    >о театре</a
+                  >
+                  <a class="nav-link nav-link-custom px-md-0" href="#"
+                    >наши постановки</a
+                  >
+                  <a class="nav-link nav-link-custom px-md-0" href="#"
+                    >партнеры театра</a
+                  >
+                  <a class="nav-link nav-link-custom px-md-0" href="#"
+                    >контакты</a
+                  >
+                </nav>
+                <div class="mobile-nav-soc-links">
+                  <div class="container pl-5 pr-5">
+                    <div class="row">
+                      <div class="col text-center">
+                        <a hreh="#"
+                          ><img
+                            width="26"
+                            height="45"
+                            src="/img/mobile-soc-icon-fb.png"
+                            alt=""
+                            class="mobile-soc-icon-margin"
+                        /></a>
+                      </div>
+                      <div class="col text-center">
+                        <a hreh="#"
+                          ><img
+                            width="45"
+                            height="45"
+                            src="/img/mobile-soc-icon-instagram.png"
+                            alt=""
+                            class="mobile-soc-icon-margin"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <a hreh="#"
+                          ><img
+                            width="45"
+                            height="31"
+                            src="/img/mobile-soc-icon-youtube.png"
+                            alt=""
+                            class="mobile-soc-icon-margin"
+                        /></a>
+                      </div>
+                      <div class="col text-center">
+                        <a hreh="#"
+                          ><img
+                            width="45"
+                            height="24"
+                            src="/img/mobile-soc-icon-vk.png"
+                            alt=""
+                            class="mobile-soc-icon-margin"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto mx-lg-0 mx-md-auto mt-lg-0 mt-md-4 ml-auto">
+                <a class="nav-link main-phone px-0">+7 495 123-45-67</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xl-6 col-lg-8 col-sm-12 col-md-9">
+                <h1 class="main-header">большой театр</h1>
+                <p class="main-descr">
+                  Большо́й теа́тр — петербургский театр, существовавший в
+                  1784—1886 годах, с 1886 года — Петербургская консерватория.
+                  Первое постоянное в Санкт-Петербурге, крупнейшее в России и
+                  одно из крупнейших театральных зданий в Европе XVIII.
+                </p>
+                <button class="btn btn-warning btn-custom">афиша</button>
+              </div>
+
+              <div class="col-xl-5 offset-1 d-none d-xl-block">
+                <div id="carouselId" class="carousel slide" data-touch="true">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img
+                        src="img/first-screen-poster.png"
+                        width="350"
+                        height="490"
+                        alt="First slide"
+                        class="carousel-item-img"
+                      />
+                      <div class="back-poster"></div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img
+                        src="img/first-screen-poster.png"
+                        width="350"
+                        height="490"
+                        alt="First slide"
+                        class="carousel-item-img"
+                      />
+                      <div class="back-poster"></div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-control-wrap">
+                    <a
+                      class="carousel-control-prev-btn"
+                      href="#carouselId"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <img
+                        class="arrow-icon-prev"
+                        width="40"
+                        src="/img/arrow-prev.png"
+                        alt=""
+                      />
+                      <span class="carousel-control-arrow-text">пред</span>
+                    </a>
+
+                    <a
+                      class="carousel-control-next-btn"
+                      href="#carouselId"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span class="carousel-control-arrow-text">след</span>
+                      <img
+                        class="arrow-icon-next"
+                        width="40"
+                        src="/img/arrow-next.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-theater">
+      <div class="container-fluid">
+        <div class="offset-lg-2">
+          <div class="container px-0">
+            <h2 class="section-header">
+              <span class="section-header-yellow">о</span> театре
+            </h2>
+
+            <div class="row justify-content-between">
+              <div class="col-xl-5 col-lg-5 col-md-8">
+                <h3 class="about-theater-header">Самый лучший театр СПБ</h3>
+                <p class="about-theater-descr">
+                  Как свидетельствуют архивные документы, первое каменное здание
+                  Большого театра начали возводить в 1775 году по проекту
+                  Антонио Ринальди. В дальнейшем, после того как Ринальди упал с
+                  лесов и не мог лично наблюдать за ходом работ, Екатерина II
+                  поручила немецкому театральному декоратору и архитектору
+                  Людвигу Филиппу Тишбейну создать новый проект театра, который
+                  и был воплощён архитекторами Ф. В. фон Бауром и М. А.
+                  Деденёвым. Открытие его состоялось в 1783 году, хотя,
+                  основываясь на других свидетельствах, годом открытия можно
+                  считать 1784 год.
+                </p>
+              </div>
+              <div class="col-xl-3 col-lg-5 col-md-4">
+                <h3 class="about-theater-header">немного о цифрах</h3>
+                <div class="container px-0">
+                  <div class="row justify-content-center">
+                    <div
+                      class="col-6 col-md-12 offset-1 offset-sm-0 px-0 px-sm-3"
+                    >
+                      <img
+                        src="img/icon-armchair.png"
+                        width="70"
+                        height="70"
+                        alt=""
+                      />
+                      <div class="about-theater-icon-caption">
+                        <span class="about-theater-icon-caption-yellow"
+                          >1600</span
+                        >
+                        посадочных мест
+                      </div>
+                    </div>
+
+                    <div class="col-4 col-md-12 px-0 px-sm-3">
+                      <img
+                        src="img/icon-theater.png"
+                        width="70"
+                        height="70"
+                        alt=""
+                      />
+                      <div class="about-theater-icon-caption">
+                        <span class="about-theater-icon-caption-yellow"
+                          >350</span
+                        >
+                        лет истории
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 hide-theatre">
+                <img
+                  src="img/theater-img.png"
+                  width="350"
+                  height="292"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-productions">
+      <div class="container-fluid">
+        <h2 class="section-header">
+          <span class="section-header-yellow">наши</span> постановки
+        </h2>
+
+        <div class="row">
+          <div class="productions-posters">
+            <div class="production-poster">
+              <img src="img/production-1.jpg" alt="" />
+              <div class="production-poster-blackout">
+                <div class="production-poster-title">оскар 2020</div>
+                <div class="production-poster-date">сентябрь 2020</div>
+              </div>
+              <div class="production-poster-search">
+                <img src="img/icon-search.png" alt="" />
+              </div>
+            </div>
+
+            <div class="production-poster">
+              <img src="img/production-2.png" alt="" />
+              <div class="production-poster-blackout">
+                <div class="production-poster-title">оскар 2020</div>
+                <div class="production-poster-date">сентябрь 2020</div>
+              </div>
+              <div class="production-poster-search">
+                <img src="img/icon-search.png" alt="" />
+              </div>
+            </div>
+
+            <div class="production-poster">
+              <img src="img/production-3.jpg" alt="" />
+              <div class="production-poster-blackout">
+                <div class="production-poster-title">золотой грамофон</div>
+                <div class="production-poster-date">июль 2020</div>
+              </div>
+              <div class="production-poster-search">
+                <img src="img/icon-search.png" alt="" />
+              </div>
+            </div>
+
+            <div class="production-poster">
+              <img src="img/production-4.jpg" alt="" />
+              <div class="production-poster-blackout">
+                <div class="production-poster-title">щелкунчик</div>
+                <div class="production-poster-date">май 2020</div>
+              </div>
+              <div class="production-poster-search">
+                <img src="img/icon-search.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="production-posters-mobile">
+            <div class="owl-carousel owl-theme">
+              <div class="production-poster">
+                <img src="img/production-1.jpg" alt="" />
+                <div class="production-poster-blackout">
+                  <div class="production-poster-title">оскар 2020</div>
+                  <div class="production-poster-date">сентябрь 2020</div>
+                </div>
+                <div class="production-poster-search">
+                  <img src="img/icon-search.png" alt="" />
+                </div>
+              </div>
+
+              <div class="production-poster">
+                <img src="img/production-2.png" alt="" />
+                <div class="production-poster-blackout">
+                  <div class="production-poster-title">оскар 2020</div>
+                  <div class="production-poster-date">сентябрь 2020</div>
+                </div>
+                <div class="production-poster-search">
+                  <img src="img/icon-search.png" alt="" />
+                </div>
+              </div>
+
+              <div class="production-poster">
+                <img src="img/production-3.jpg" alt="" />
+                <div class="production-poster-blackout">
+                  <div class="production-poster-title">золотой грамофон</div>
+                  <div class="production-poster-date">июль 2020</div>
+                </div>
+                <div class="production-poster-search">
+                  <img src="img/icon-search.png" alt="" />
+                </div>
+              </div>
+
+              <div class="production-poster">
+                <img src="img/production-4.jpg" alt="" />
+                <div class="production-poster-blackout">
+                  <div class="production-poster-title">щелкунчик</div>
+                  <div class="production-poster-date">май 2020</div>
+                </div>
+                <div class="production-poster-search">
+                  <img src="img/icon-search.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="container">
+            <div class="best-theatre">
+              <div class="row">
+                <div class="col-md-2 offset-md-2">
+                  <span class="best-theatre-years">2018</span>
+                  <span class="best-theatre-years">2019</span>
+                  <span class="best-theatre-years">2020</span>
+                </div>
+
+                <div class="col-md-6 offset-md-1">
+                  <div class="stars d-flex justify-content-between">
+                    <img
+                      width="26"
+                      height="24"
+                      src="img/icon-star.png"
+                      alt=""
+                    />
+                    <img
+                      width="26"
+                      height="24"
+                      src="img/icon-star.png"
+                      alt=""
+                    />
+                    <img
+                      width="26"
+                      height="24"
+                      src="img/icon-star.png"
+                      alt=""
+                    />
+                    <img
+                      width="26"
+                      height="24"
+                      src="img/icon-star.png"
+                      alt=""
+                    />
+                    <img
+                      width="26"
+                      height="24"
+                      src="img/icon-star.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="best-theatre-descr">
+                    Лучший театр<br />
+                    по мнению театральных критиков Парижа
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- jQuery, Popper.js, and Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -372,5 +806,7 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
