@@ -1,10 +1,12 @@
 $(document).ready(function () {
-  $(".burger-wrapper").click(function (event) {
-    $(".burger-wrapper, .offcanvas-menu").toggleClass("active");
+  $(".header-burger").click(function (event) {
+    $(".header-wrapper, .header-nav").addClass("active");
+    $(".header-burger").addClass("header-burger-hide");
   });
 
-  $(".close-menu").click(function (event) {
-    $(".offcanvas-menu").removeClass("active");
+  $(".header-burger-close").click(function (event) {
+    $(".header-wrapper, .header-nav").removeClass("active");
+    $(".header-burger").removeClass("header-burger-hide");
   });
 
   $(".owl-carousel").owlCarousel({
@@ -18,17 +20,14 @@ $(document).ready(function () {
         dots: false,
       },
       728: {
-        items: 3,
+        items: 2,
         dots: false,
       },
       960: {
-        items: 4,
-        dots: false,
-      },
-      1200: {
-        items: 5,
+        items: 2,
         dots: false,
       },
     },
+    loop: true,
   });
 });
