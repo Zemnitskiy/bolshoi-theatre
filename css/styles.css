@@ -650,10 +650,6 @@ textarea {
     margin-bottom: 35px;
   }
 
-  .header-nav-item:last-child {
-    margin-bottom: 89px;
-  }
-
   .header-nav-link {
     font-size: 24px;
     line-height: 33px;
@@ -695,7 +691,7 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     width: 140px;
-    margin: 0 auto;
+    margin: 89px auto;
   }
 
   .mobile-soc-links-wrapper img:nth-child(odd) {
