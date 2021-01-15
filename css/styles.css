@@ -589,6 +589,52 @@ textarea {
   border-bottom: 2px solid #d1a954;
 }
 
+.fixed-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150px;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.75);
+}
+
+.fixed-bar-text {
+  margin: 250px auto 100px auto;
+}
+
+.fixed-bar-text span {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #c4c4c4;
+
+  display: block;
+  transform: rotate(-90deg);
+}
+
+.fixed-bar-vertical-line {
+  width: 0;
+  height: 80px;
+  border-left: 3px solid #c4c4c4;
+  margin: 0 auto;
+}
+
+.fixed-bar-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 26px;
+  margin: 40px auto 0 auto;
+}
+
+.fixed-bar-icons a {
+  margin: 0 auto 30px auto;
+}
 /* Main Styles End */
 
 /* Media Query Styles Start */
@@ -613,6 +659,10 @@ textarea {
   .phone-number {
     margin: 0 auto;
   }
+
+  .fixed-bar {
+    display: none;git 
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -629,6 +679,7 @@ textarea {
     background-color: #333333;
 
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .header-wrapper.active {
@@ -674,7 +725,7 @@ textarea {
   .header-burger-close-line-first,
   .header-burger-close-line-second {
     position: absolute;
-    width: 16px;
+    width: 20px;
   }
 
   .header-burger-close-line-first {
@@ -694,12 +745,17 @@ textarea {
     margin: 89px auto;
   }
 
-  .mobile-soc-links-wrapper img:nth-child(odd) {
+  .mobile-soc-links-wrapper a:nth-child(odd) {
     margin-right: 50px;
   }
 
-  .mobile-soc-links-wrapper img:nth-child(1),
-  .mobile-soc-links-wrapper img:nth-child(2) {
+  .mobile-soc-links-wrapper a:first-child {
+    margin-left: 9px;
+    margin-right: 60px;
+  }
+
+  .mobile-soc-links-wrapper a:nth-child(1),
+  .mobile-soc-links-wrapper a:nth-child(2) {
     margin-bottom: 50px;
   }
 
