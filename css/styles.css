@@ -1005,12 +1005,6 @@ body {
   .first-screen {
     height: 800px;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .first-screen {
-    height: 600px;
-  }
 
   .about-content {
     flex-direction: column;
@@ -1036,7 +1030,13 @@ body {
   }
 
   .about-best-theater-digits-seats {
-    margin: 0 30px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .first-screen {
+    height: 600px;
   }
 }
 /* Media Query Styles End */
