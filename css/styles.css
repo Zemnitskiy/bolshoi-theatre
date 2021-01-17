@@ -1036,7 +1036,7 @@ body {
   }
 
   .about-best-theater-digits-seats {
-    margin-right: 30px;
+    margin: 0 30px;
   }
 }
 /* Media Query Styles End */
