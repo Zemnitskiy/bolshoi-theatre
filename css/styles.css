@@ -766,6 +766,82 @@ body {
   width: 40px;
 }
 
+.header-section {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.highlite {
+  color: #d1a954;
+}
+
+.about-content {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.about-best-theater {
+  max-width: 445px;
+}
+
+.about-best-theater-digits {
+  max-width: 255px;
+  margin: 0 30px;
+}
+
+.about-theater-photo {
+  width: 350px;
+}
+
+.about-best-theater-header {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-bottom: 40px;
+}
+
+.about-best-theater-descr {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.about-best-theater-digits-seats {
+  margin-bottom: 28px;
+}
+
+.about-best-theater-digits-seats h4,
+.about-best-theater-digits-history h4 {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+
+  margin-top: 17px;
+}
+
 /* Main Styles End */
 
 /* Media Query Styles Start */
@@ -797,6 +873,14 @@ body {
 
   .first-screen-slider {
     display: none;
+  }
+
+  .about-theater-photo {
+    display: none;
+  }
+
+  .about-best-theater-digits {
+    margin-right: 0;
   }
 }
 
@@ -902,17 +986,57 @@ body {
   .first-screen-header {
     margin-top: 0;
   }
+
+  .header-section {
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+
+  .about-content {
+    margin-bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .wrapper {
     max-width: 510px;
   }
+
+  .first-screen {
+    height: 800px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .first-screen {
-    height: 100vh !important;
+    height: 600px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-best-theater-digits {
+    margin-left: 0;
+    max-width: 510px;
+  }
+
+  .about-best-theater-header {
+    text-align: center;
+  }
+
+  .about-best-theater-descr {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  .about-best-theater-container {
+    display: flex;
+  }
+
+  .about-best-theater-digits-seats {
+    margin-right: 60px;
   }
 }
 /* Media Query Styles End */
