@@ -18,10 +18,18 @@ $(document).ready(function () {
 
   $(".owl-poster").owlCarousel({
     items: 1,
+    loop: true,
     autoWidth: true,
     margin: 21,
     nav: true,
     dots: false,
     navText: [prevBtn, nextBtn],
+  });
+
+  $(".owl-projects").owlCarousel({
+    items: 1.5,
+    loop: true,
+    nav: false,
+    dots: false,
   });
 });
