@@ -27,9 +27,16 @@ $(document).ready(function () {
   });
 
   $(".owl-projects").owlCarousel({
-    items: 1.5,
     loop: true,
     nav: false,
     dots: false,
+    responsive: {
+      0: {
+        items: 1.2,
+      },
+      576: {
+        items: 1.5,
+      },
+    },
   });
 });
