@@ -705,6 +705,7 @@ body {
 
 .first-screen-poster {
   position: relative;
+  height: 510px;
 }
 
 .first-screen-poster-yellow {
@@ -721,10 +722,6 @@ body {
   width: 350px;
   height: 490px;
   z-index: -1;
-}
-
-.owl-item {
-  height: 510px;
 }
 
 .owl-prev span,
@@ -945,6 +942,76 @@ body {
   display: none;
 }
 
+.theater-rating-wrapper {
+  max-width: 1100px;
+  height: 550px;
+  margin: 150px auto 0 auto;
+}
+
+.theater-rating {
+  background: url("../img/best-theater-bg.png");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.years-container {
+  margin-right: 103px;
+}
+
+.year-yellow {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d1a954;
+}
+
+.rating-descr {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+
+  margin-top: 25px;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .partners-logos:last-child,
+.wrapper .partner-logos-mobile:last-child {
+  margin-top: 80px;
+}
+
+.partner-logos-mobile {
+  display: none;
+}
+
+.partner-item {
+  width: 200px;
+  height: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Main Styles End */
 
 /* Media Query Styles Start */
@@ -996,6 +1063,36 @@ body {
 
   .project-item:first-child {
     margin-left: 0;
+  }
+
+  .theater-rating-wrapper {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .years-container {
+    margin-right: 58px;
+  }
+
+  .rating-descr {
+    font-size: 34px;
+  }
+
+  .rating-stars {
+    width: 192px;
+  }
+
+  .rating-stars img {
+    width: 22px;
+  }
+
+  .partner-logos-desktop {
+    display: none;
+  }
+
+  .partner-logos-mobile {
+    display: block;
   }
 }
 
@@ -1111,6 +1208,18 @@ body {
   .about-content {
     margin-bottom: 90px;
   }
+
+  .years-container {
+    margin: 0 10px;
+  }
+
+  .rating-stars {
+    width: 160px;
+  }
+
+  .rating-descr {
+    font-size: 29px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1147,6 +1256,15 @@ body {
 
   .about-best-theater-digits-seats {
     margin-right: 60px;
+  }
+
+  .theater-rating-wrapper {
+    margin-top: 90px;
+  }
+
+  .rating-descr {
+    padding-right: 10px;
+    font-size: 20px;
   }
 }
 

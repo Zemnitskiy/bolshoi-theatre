@@ -39,4 +39,19 @@ $(document).ready(function () {
       },
     },
   });
+
+  $(".owl-partners").owlCarousel({
+    items: 2,
+    loop: true,
+    nav: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+    },
+  });
 });
