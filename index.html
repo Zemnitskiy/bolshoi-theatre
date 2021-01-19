@@ -38,16 +38,16 @@
                 <a href="#" class="header-nav-link">главная</a>
               </li>
               <li class="header-nav-item">
-                <a href="#" class="header-nav-link">о театре</a>
+                <a href="#about" class="header-nav-link">о театре</a>
               </li>
               <li class="header-nav-item">
-                <a href="#" class="header-nav-link">наши постановки</a>
+                <a href="#projects" class="header-nav-link">наши постановки</a>
               </li>
               <li class="header-nav-item">
-                <a href="#" class="header-nav-link">партнеры театра</a>
+                <a href="#partners" class="header-nav-link">партнеры театра</a>
               </li>
               <li class="header-nav-item">
-                <a href="#" class="header-nav-link">контакты</a>
+                <a href="#contacts" class="header-nav-link">контакты</a>
               </li>
             </ul>
 
@@ -151,7 +151,7 @@
     </section>
 
     <!-- Section About -->
-    <section class="about">
+    <section id="about" class="about">
       <div class="wrapper">
         <h2 class="header-section"><span class="highlite">о</span> театре</h2>
         <div class="about-content">
@@ -194,7 +194,7 @@
       </div>
     </section>
     <!-- Section Projects -->
-    <section class="projects">
+    <section id="projects" class="projects">
       <h2 class="header-section">
         <span class="highlite">наши</span> постановки
       </h2>
@@ -340,7 +340,7 @@
       </div>
     </section>
     <!-- Section Partners -->
-    <section class="partners">
+    <section id="partners" class="partners">
       <div class="wrapper">
         <h2 class="header-section">
           <span class="highlite">партнеры</span> театра
@@ -493,27 +493,77 @@
       </div>
     </section>
     <!-- Section Contacts -->
-    <section class="contacts">
+    <!-- <section id="contacts" class="contacts">
       <div class="wrapper">
         <h2 class="header-section">
           <span class="highlite">стать</span> меценатом
         </h2>
-      </div>
-    </section>
-    <footer class="footer"></footer>
+        <div class="contacts-and-form-wrapper">
+          <div class="contact-wrapper">
+            <div class="contact-phones-address">
+              <div class="contact-phones">
+                <a href="tel:+7 (812) 123-45-55" class="contact-phone"
+                  >+7 (812) 123-45-55</a
+                >
+                <a href="tel:+7 (812) 123-45-66" class="contact-phone"
+                  >+7 (812) 123-45-66</a
+                >
+              </div>
+              <div class="contact-addresses">
+                <a href="mailto:info@theater.ru" class="contact-email"
+                  >info@theater.ru</a
+                >
+                <div class="contact-address">
+                  г. санкт-петербург, невский 140
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- jQuery, Popper.js, and Bootstrap JS -->
+          <form>
+            <div class="form-wrapper">
+              <div class="form-inputs">
+                <input type="text" placeholder="Имя" />
+                <input type="text" placeholder="Компания" />
+                <input type="text" placeholder="Телефон" />
+                <input type="text" placeholder="E-mail" />
+              </div>
+              <textarea
+                placeholder="Сообщение"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+              <div class="form-submit">
+                <div class="form-submit-descr">
+                  * Ваши данные не будут переданы третьим лицам, 100%
+                  вероятность. Конфиденциальность мы гарантируем, и защищаем
+                  персональные данные согласно законку ФЗ-52.
+                </div>
+                <a href="#" class="btn-yellow">отправить</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section> -->
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-txt-left">
+          (с) Все права защищены. Большой театр. 2020
+        </div>
+        <div class="footer-txt-right">Разработано d-e-n.ru</div>
+      </div>
+    </footer>
+
+    <!-- jQuery, Owl Carousel, scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script> -->
     <script src="js/main.js"></script>
     <script src="js/owl.carousel.min.js"></script>
   </body>
