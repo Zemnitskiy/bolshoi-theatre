@@ -1482,6 +1482,16 @@ textarea::placeholder {
   .form-submit-descr {
     text-align: center;
   }
+
+  .contacts .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contacts-and-form-wrapper {
+    width: 350px;
+  }
 }
 
 @media screen and (max-width: 576px) {
