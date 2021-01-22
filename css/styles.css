@@ -1444,30 +1444,35 @@ textarea::placeholder {
     font-size: 20px;
   }
 
-  .contacts-and-form-wrapper,
-  .contact-wrapper,
-  .form-wrapper,
+  .contacts-and-form-wrapper {
+    width: 510px;
+  }
+
+  .form-wrapper {
+    width: 510px;
+  }
+
   .form-submit {
-    width: auto;
+    width: 510px;
   }
 
   .contact-phones-address {
-    width: 440px;
+    width: 510px;
     margin-top: 50px;
   }
 
   .form-inputs {
-    max-width: 440px;
+    max-width: 510px;
   }
 
   .form-inputs input {
-    /* width: 230px; */
+    width: 230px;
   }
 
   textarea {
     margin-left: 0;
     margin-top: 30px;
-    width: 440px;
+    width: 510px;
   }
 
   .form-submit {
@@ -1482,19 +1487,37 @@ textarea::placeholder {
   .form-submit-descr {
     text-align: center;
   }
-
-  .contacts .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .contacts-and-form-wrapper {
-    width: 350px;
-  }
 }
 
 @media screen and (max-width: 576px) {
+  /* Тут продолжить стили для последнего экрана, делать под 400px */
+  .contacts-and-form-wrapper,
+  .form-wrapper,
+  .form-submit,
+  .contact-phones-address,
+  .form-inputs,
+  textarea,
+  .form-submit-descr,
+  .contacts .wrapper,
+  .footer {
+    width: 360px;
+  }
+
+  .contact-phones,
+  .contact-addresses {
+    width: 150px;
+  }
+
+  .form-wrapper,
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-inputs input {
+    width: 150px;
+  }
+
   .first-screen {
     height: 600px;
   }
@@ -1506,6 +1529,14 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 420px) {
+  /* .contacts-and-form-wrapper {
+    width: 350px;
+  }
+
+  .form-wrapper {
+    width: 350px;
+  }
+
   .form-inputs {
     width: 350px;
   }
@@ -1532,6 +1563,6 @@ textarea::placeholder {
 
   .contact-addresses {
     width: 200px;
-  }
+  } */
 }
 /* Media Query Styles End */
