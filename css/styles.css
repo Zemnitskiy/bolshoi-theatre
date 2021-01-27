@@ -935,7 +935,6 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
-  /* transform: rotate(-90deg); */
 }
 
 .projects-mobile {
@@ -1079,6 +1078,8 @@ body {
 .form-inputs input {
   width: 180px;
   height: 35px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 .form-inputs input:nth-child(1),
