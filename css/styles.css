@@ -1503,7 +1503,7 @@ textarea::placeholder {
   .form-submit-descr,
   .contacts .wrapper,
   .footer {
-    max-width: 340px;
+    max-width: 320px;
   }
 
   .wrapper {
