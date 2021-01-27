@@ -1132,7 +1132,7 @@ textarea::placeholder {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #565656;
-  padding: 0 10px;
+  padding: 0;
 }
 
 .footer-txt-left,
@@ -1500,7 +1500,15 @@ textarea::placeholder {
   .form-submit-descr,
   .contacts .wrapper,
   .footer {
-    width: 360px;
+    max-width: 340px;
+  }
+
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  .first-screen-offer {
+    margin-right: 0;
   }
 
   .contact-phones,
@@ -1522,47 +1530,13 @@ textarea::placeholder {
     height: 600px;
   }
 
+  .about-best-theater-digits-seats {
+    margin-right: 40px;
+  }
+
   .footer-txt-left,
   .footer-txt-right {
     font-size: 10px;
   }
-}
-
-@media screen and (max-width: 420px) {
-  /* .contacts-and-form-wrapper {
-    width: 350px;
-  }
-
-  .form-wrapper {
-    width: 350px;
-  }
-
-  .form-inputs {
-    width: 350px;
-  }
-
-  .form-inputs input {
-    width: 140px;
-  }
-
-  textarea {
-    width: 350px;
-  }
-
-  .form-submit {
-    width: 350px;
-  }
-
-  .contact-wrapper {
-    width: 350px;
-  }
-
-  .contact-phones-address {
-    width: 350px;
-  }
-
-  .contact-addresses {
-    width: 200px;
-  } */
 }
 /* Media Query Styles End */
